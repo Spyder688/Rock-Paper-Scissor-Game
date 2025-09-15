@@ -11,10 +11,9 @@ h1 {
   color: #E9ECEF;
   height: 4rem;
   line-height: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
-/* Choices */
 .choice {
   height: 120px;
   width: 120px;
@@ -43,12 +42,12 @@ img {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  flex-wrap: wrap; /* ✅ makes it responsive */
+  flex-wrap: wrap; 
   margin: 2rem auto;
   max-width: 600px;
 }
 
-/* Scoreboard */
+
 .score-board {
   display: flex;
   justify-content: center;
@@ -56,15 +55,15 @@ img {
   font-size: 1.5rem;
   margin-top: 2rem;
   gap: 3rem;
-  flex-wrap: wrap; /* ✅ better on small screens */
+  flex-wrap: wrap; 
 }
 
 #user-score,
 #comp-score {
   font-size: 3rem;
+  font-weight: bold;
 }
 
-/* Message */
 .msg-container {
   margin-top: 3rem;
 }
@@ -81,7 +80,6 @@ img {
   max-width: 90%;
 }
 
-/* Reset Button */
 #reset-btn {
   margin-top: 2rem;
   padding: 0.8rem 1.5rem;
@@ -98,7 +96,6 @@ img {
   background: #0a58ca;
 }
 
-/* ✅ Responsive for mobile */
 @media (max-width: 600px) {
   .choice {
     height: 90px;
@@ -109,7 +106,7 @@ img {
     width: 70px;
   }
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   #user-score,
   #comp-score {
